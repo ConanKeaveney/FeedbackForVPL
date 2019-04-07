@@ -1,0 +1,121 @@
+Case = Test 1
+input =  
+Adam 100 67 14 86 35 87 34                                                      
+Ben 12 100 100 100 98  56 45                                                    
+Connor 100 100 100 100 100 100 100
+Steven 100 100
+Constantine 100 67 45 35                                        
+                                                                                                       
+output = 
+Steven      student has done no homework
+Constantine 62.8
+Connor      100
+Ben         74.3
+Adam        67.3
+
+Case = Test 2
+input =  
+Steven 100 100                                                                  
+Constantine 100 67 45 35                                                        
+Connor 100 100 100 100 100 100 100                                              
+Ben 12 100 100 100 98  56 45                                                    
+Adam 100 67 14 86 35 87 34                                              
+                                                                                                       
+output = 
+Steven      student has done no homework
+Constantine 62.8
+Connor      100
+Ben         74.3
+Adam        67.3 
+
+Case = Test 3
+input = 
+Adam 0 0 0 0 0 0 0
+                                                                                                                                                                                                                                                     
+output = 
+Adam 0 
+
+Case = Test 4
+input =                                                              
+Adam 100 1 2 3 4 5 6 7 8 9 10 11 12 13 14                                                     
+Ben 12 100 100 100 98 56 45                                                    
+Connor 100 100 100 100 100 100 100                                              
+                                                                                                       
+output = 
+Connor 100
+Ben    74.3
+Adam   23.6
+
+Case = Test 5
+input =                                                              
+Adam 100 67 14 86 35 87 34                                                      
+Ben 12 100 100 100 98  56 45
+Xan 100 100 0                                                     
+Connor 100 100 100 100 100 100 100 
+Zed 0 0 100 100 100 100 100 100 100                                             
+                                                                                                       
+output = 
+Zed    40
+Xan    60
+Connor 100
+Ben    74.3
+Adam   67.3
+
+Case = Test 6
+input =                                                              
+Adam 100 67.6 14.5 86.8 35.7 87.6 34.3                                                      
+Ben 12.1 100.1 100.5 100.67 98.67  56 45.3                                                    
+Connor 98.9 100 100 100 100 100 100                                              
+                                                                                                       
+output = 
+Connor 99.8
+Ben    74.6
+Adam   67.8
+
+
+Case = Test 7
+input =                                                              
+Adam 100 67 14 86 35 87 34                                                      
+Ben 12 100 100 100 98.68 56.21 45.0                                                    
+Connor 0 0 12.2 2.4 0.67 54.78 99.9                                              
+                                                                                                       
+output = 
+Connor 13.6
+Ben    74.4
+Adam   67.3 
+
+Case = Test 8
+input =                                                                                                                  
+Ben 99.9 99.9 0.5 0.5 0.5                                                 
+Connor 100 100 0.5                                              
+Adam 0.5 0.5 1 2 3 4 5 
+
+                                                                                                       
+output = 
+Connor 60.2
+Ben    60.1
+Adam   1.5 
+
+Case = Test 9
+input =                                                              
+Adam 0.999 0.999 0.999 0.999 0.999                                                     
+Ben 0.9999 0.9999 0.9999 0.9999 0.9999 0.9999                                                  
+Connor 99.999 99.999 0.999 0.999 0.999                                              
+                                                                                                       
+output = 
+Connor 60.4
+Ben    1
+Adam   0.999 
+
+Case = Test 10
+input =                                                              
+Adam 100 100 0                                                                                                    
+Connor 100 100 0
+Ben                                             
+                                                                                                       
+output = 
+Connor 60
+Adam   60 
+
+
+

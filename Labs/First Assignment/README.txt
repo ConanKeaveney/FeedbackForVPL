@@ -1,0 +1,1 @@
+This directory contains a solution for a sample c++ problem ( to sort a vector ). There are also test cases, a sample executable and two variants of the problem in zip folders.

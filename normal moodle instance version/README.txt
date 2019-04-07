@@ -1,0 +1,3 @@
+A full instance of the latest Moodle can be installed using the Moodle documentation linked here: https://docs.moodle.org/35/en/Step-by-step_Installation_Guide_for_Ubuntu.
+The VPL plugin can be downloaded from the following site: https://moodle.org/plugins/mod_vpl. The zip is moved to the "mod" directory in Moodle.
+This sub-directories contains all the files that need to be added once the instance is installed.
